@@ -165,7 +165,7 @@ print_r(array_keys($team)); //array_keys berguna untuk menampilkan
 var_dump(array_key_exists("John",$team)); //array_key_exists untuk mengecek ada atau enggaknya key contoh ("John")
 
 array_walk($team,function($value,$key){
-
+    
     echo " $key is a $value \n";
 });
 
@@ -175,7 +175,7 @@ if(array_key_exists("Mike",$team))
     echo "Mike found is \$team";
 }else{
     echo "Mike not found is \$team";
-
+    
 }
 
 br();
